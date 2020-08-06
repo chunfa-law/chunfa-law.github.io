@@ -1626,7 +1626,7 @@
 		@media screen and (max-width: 736px) {
 
 			body, input, select, textarea {
-				font-size: 9pt;
+				font-size: 10pt;
 			}
 
 		}
@@ -1634,7 +1634,7 @@
 		@media screen and (max-width: 480px) {
 
 			body, input, select, textarea {
-				font-size: 8pt;
+				font-size: 10pt;
 			}
 
 		}
@@ -1728,11 +1728,11 @@
 	}
 
 	h5 {
-		font-size: 0.9em;
+		font-size: 1.2em;
 	}
 
 	h6 {
-		font-size: 0.7em;
+		font-size: 1.2em;
 	}
 
 	sub {
@@ -3751,7 +3751,7 @@
 		}
 
 		#banner h1 {
-			font-size: 4em;
+			font-size: 3.5em;
 			font-family: "cwTeXFangSong", serif;
 			font-weight: normal;
 
@@ -3830,12 +3830,10 @@
 		@media screen and (max-width: 980px) {
 
 			#banner {
-				font-size: .85em;
+				/*font-size: 1.4em;*/
 			}
 
-				#banner br {
-					display: none;
-				}
+
 
 		}
 
@@ -3851,7 +3849,7 @@
 				}
 
 				#banner h1 {
-					font-size: 1.75em;
+					/*font-size: 1.5em;*/
 					margin-bottom: 0.5em;
 					padding-bottom: 0;
 					font-weight: normal;
@@ -3859,7 +3857,7 @@
 				}
 
 				#banner p {
-					font-size: 1.25em;
+					/*font-size: 1.3em;*/
 				}
 
 				#banner .button {
@@ -3869,10 +3867,12 @@
 		}
 
 		@media screen and (max-width: 480px) {
-
-			#banner p {
-				font-size: 1em;
+/*			#banner h1 {
+				font-size: 1.5em;
 			}
+			#banner p {
+				font-size: 1.3em;
+			}*/
 
 		}
 
